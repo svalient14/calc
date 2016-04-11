@@ -13,6 +13,12 @@
 		var num = document.getElementById("n1");
 		num.value = num.value * num.value;
 	}
+
+	function raiz(){
+		var num =document.getElementById("n1");
+		num.value = Math.sqrt(num.value);
+	}
+
 	</script>
 
 </head>
@@ -21,6 +27,7 @@
 	<input type="text" id="n1" onclick="vaciar()">
 	<p>
 	<button onclick="cuadrado()"> x<sup>2</sup></button>
+	<button onclick="raiz()">sqrt(x)</button>
 	</p>
 </body>
 </html>
